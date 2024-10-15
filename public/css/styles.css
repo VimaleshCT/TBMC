@@ -1,0 +1,135 @@
+/* General Styling */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-header {
+  position: relative;
+  padding: 20px 0;
+  z-index: 2; /* Ensure header is above the background */
+}
+
+/* Adding the background image with reduced opacity */
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/head.png"); /* Replace with the actual path */
+  background-size: contain;
+  background-position: center;
+  opacity: 0.2; /* Reduce the opacity of the background image */
+  z-index: 1; /* Ensure the image stays behind the header and navbar */
+  pointer-events: none; /* Allow clicks to pass through the image */
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  position: relative;
+  z-index: 3; /* Ensure content is above the background image */
+}
+
+.top-left img.cm-img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.top-center {
+  text-align: center;
+}
+
+.top-center .logo {
+  width: 80px; /* Adjust logo size */
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.accessibility {
+  margin-bottom: 10px;
+}
+
+.accessibility-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.language-switcher a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.language-switcher a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #6e2440;
+  padding: 10px 0;
+  position: relative;
+  z-index: 3; /* Ensure the navbar is above the background image */
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #92315a;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+  background-color: #ffd700;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  z-index: 3; /* Ensure announcement bar is also above the image */
+  position: relative;
+}
