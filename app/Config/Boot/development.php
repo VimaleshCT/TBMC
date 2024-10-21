@@ -11,8 +11,10 @@ define('CI_ENVIRONMENT', 'development');
  |
  | If you set 'display_errors' to '1', CI4's detailed error report will show.
  */
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-ini_set('display_errors', '1');
+
 
 /*
  |--------------------------------------------------------------------------

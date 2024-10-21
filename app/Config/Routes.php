@@ -6,7 +6,10 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('lang/(:any)', 'BaseController::switchLanguage/$1');
+$routes->get('language/switchLanguage/(:any)', 'Language::switchLanguage/$1');
+
+
+
 
 
 

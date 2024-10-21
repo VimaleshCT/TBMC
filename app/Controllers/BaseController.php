@@ -21,30 +21,43 @@ use Psr\Log\LoggerInterface;
  */
 abstract class BaseController extends Controller
 {
-    protected $helpers = ['url'];
+    /**
+     * Instance of the main Request object.
+     *
+     * @var CLIRequest|IncomingRequest
+     */
+    protected $request;
 
+    /**
+     * An array of helpers to be loaded automatically upon
+     * class instantiation. These helpers will be available
+     * to all other controllers that extend BaseController.
+     *
+     * @var list<string>
+     */
+    protected $helpers = ["url"];
+
+    /**
+     * Be sure to declare properties for any property fetch you initialized.
+     * The creation of dynamic property is deprecated in PHP 8.2.
+     */
+    // protected $session;
+
+    /**
+     * @return void
+     */
     public function __construct()
     {
-        // Ensure session is started
+        // Start session if not already started
         if (session_status() == PHP_SESSION_NONE) {
             session()->start();
         }
 
         // Check the current language from session or default to 'en'
         $language = session()->get('lang') ?? 'en';
+
+        // Load the language file
         service('language')->setLocale($language);
     }
-
-    public function switchLanguage($language = 'en')
-    {
-        $availableLanguages = ['en', 'ta']; // Supported languages
-        if (in_array($language, $availableLanguages)) {
-            session()->set('lang', $language);
-        } else {
-            session()->set('lang', 'en');
-        }
-
-        // Redirect back to the previous page
-        return redirect()->back();
-    }
 }
+

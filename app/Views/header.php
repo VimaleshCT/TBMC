@@ -26,11 +26,11 @@
                     <button class="accessibility-btn" id="reset-font">A</button>
                     <button class="accessibility-btn" id="decrease-font">A-</button>
                 </div>
-
                 <div class="language-switcher">
-                    <a href="<?= site_url('lang/en'); ?>" class="lang-btn">English</a>
-                    <a href="<?= site_url('lang/ta'); ?>" class="lang-btn">தமிழ்</a>
+                    <a href="#" class="lang-btn" data-lang="en">English</a>
+                    <a href="#" class="lang-btn" data-lang="ta">தமிழ்</a>
                 </div>
+
             </div>
         </div>
 
