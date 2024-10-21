@@ -27,10 +27,13 @@
                     <button class="accessibility-btn" id="decrease-font">A-</button>
                 </div>
                 <div class="language-switcher">
-                    <a href="#" class="lang-btn" data-lang="en">English</a>
-                    <a href="#" class="lang-btn" data-lang="ta">தமிழ்</a>
+                    <span id="languageLabelLeft">English</span>
+                    <label class="switch">
+                        <input type="checkbox" id="languageToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span id="languageLabelRight">தமிழ்</span>
                 </div>
-
             </div>
         </div>
 
@@ -49,9 +52,15 @@
         </nav>
 
         <!-- Announcement Bar -->
+
         <div class="announcement-bar">
-            <p><?= lang('App.announcement'); ?></p>
+            <h3 class="announcement-label">Announcement:</h3>
+            <div class="announcement-content">
+                <p><?= lang('App.announcement'); ?></p>
+            </div>
         </div>
+
+
     </header>
 
     <script>

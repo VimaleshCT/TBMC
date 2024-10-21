@@ -53,10 +53,10 @@ abstract class BaseController extends Controller
             session()->start();
         }
 
-        // Check the current language from session or default to 'en'
+        // Get the current language from session or default to 'en'
         $language = session()->get('lang') ?? 'en';
 
-        // Load the language file
+        // Set the application locale based on the session language
         service('language')->setLocale($language);
     }
 }
