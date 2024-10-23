@@ -1,5 +1,8 @@
-<p id="description"><?= lang('App.description'); ?></p>
-<p id="announcement"><?= lang('App.announcement'); ?></p>
+<section class="banner">
+    <h1>I ❤️ TAMBARAM</h1>
+</section>
+
+
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>

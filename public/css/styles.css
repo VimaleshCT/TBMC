@@ -8,8 +8,7 @@ html {
 
 .main-header {
   position: relative;
-  padding: 20px 0;
-  z-index: 2; /* Ensure header is above the background */
+  z-index: 0; /* Ensure header is above the background */
 }
 
 /* Adding the background image with reduced opacity */
@@ -20,7 +19,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("../img/head.png"); /* Replace with the actual path */
+  background-image: url("../img/head.png");
   background-size: contain;
   background-position: center;
   opacity: 0.2; /* Reduce the opacity of the background image */
@@ -125,7 +124,7 @@ html {
 
 /* Announcement Bar */
 .announcement-bar {
-  background-color: #ffd700;
+  background-color: #d7d6d6d3;
   padding: 10px;
   font-size: 1rem;
   color: black;
@@ -178,7 +177,7 @@ html {
   background: linear-gradient(
     to right,
     rgba(255, 215, 0, 0),
-    rgba(255, 215, 0, 1)
+    rgb(173, 172, 165)
   );
   pointer-events: none; /* Ensure this element does not block interactions */
 }
@@ -245,4 +244,106 @@ input:checked + .slider:before {
   margin-left: 10px;
   font-weight: bold;
   font-size: 16px;
+}
+
+/* Styling for the banner section */
+.banner {
+  background-image: url("../img/banner.jpg"); /* Use the correct path for the banner image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+}
+
+/* Optional: Add some styling for text inside the banner */
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Basic Footer Styling */
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.logo-description p {
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+/* Social Media Icons */
+.footer-social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.footer-social-icons a:hover {
+  color: #007bff;
+}
+
+/* App Download Section */
+.footer-app-download p {
+  margin-top: 10px;
+}
+
+.footer-app-download img {
+  width: 130px;
+  margin-right: 10px;
+}
+
+/* Footer Links */
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff;
 }

@@ -9,6 +9,7 @@ class Home extends BaseController
         // Test loading just the header view
         echo view('header');
         echo view('index');
+        echo view('footer');
 
     }
 }
