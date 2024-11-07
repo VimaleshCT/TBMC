@@ -218,7 +218,7 @@
                 <!-- Councillor Card -->
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">
@@ -236,7 +236,7 @@
 
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">
@@ -251,23 +251,7 @@
                 </div>
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">
@@ -283,7 +267,7 @@
 
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">
@@ -299,7 +283,7 @@
 
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">
@@ -315,7 +299,23 @@
 
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
+                        <div class="flag-overlay"></div>
+                    </div>
+                    <div class="councillor-card">
+                        <div class="councillor-info">
+                            <h3>Thiru. Jeganathan V</h3>
+                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
+                            <p>9841275549</p>
+                            <p>A.I.A.D.M.K</p>
+                            <p>Ward 5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="profile-image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">
@@ -332,7 +332,7 @@
 
                 <div class="col-md-4 col-lg-3 mb-4">
                     <div class="profile-image">
-                        <img src="assets/images/who.svg" alt="Councillor Image">
+                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
                         <div class="flag-overlay"></div>
                     </div>
                     <div class="councillor-card">

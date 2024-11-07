@@ -20482,8 +20482,8 @@ footer .footer-navbar .nav-item:last-child a {
 /* Profile image container */
 .profile-image {
   position: relative;
-  width: 83px;
-  height: 83px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
   background-color: #fff;
   border-radius: 50%;
@@ -20518,7 +20518,7 @@ footer .footer-navbar .nav-item:last-child a {
 .councillor-card {
   width: 100%;
   max-width: 300px;
-  background-color: #e7ded7;
+  background-color: #eee8e3;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
