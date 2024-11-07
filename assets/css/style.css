@@ -20456,7 +20456,7 @@ footer .footer-navbar .nav-item:last-child a {
 }
 
 .image-section-before-footer {
-  background-color: #F8F9FA; /* Adjust as needed */
+  background-color: #f8f9fa; /* Adjust as needed */
   text-align: center;
 }
 
@@ -20518,7 +20518,7 @@ footer .footer-navbar .nav-item:last-child a {
 .councillor-card {
   width: 100%;
   max-width: 300px;
-  background-color: #e9e1da;
+  background-color: #e7ded7;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
