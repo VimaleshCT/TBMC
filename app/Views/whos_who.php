@@ -351,7 +351,7 @@
 
 
 
-    <section class="image-section-before-footer">
+    <section class="image-section-before-footer" style="padding-bottom:0px;">
         <div class="container" style="max-width:1300px;">
             <img src="assets/images/group.png" alt="WHP Image" class="whp-image">
         </div>
