@@ -20485,13 +20485,12 @@ footer .footer-navbar .nav-item:last-child a {
   height: 150px;
   margin: 0 auto;
   background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
-  top: -20px; /* Moves the image to overlap the top of the card */
   z-index: 1;
 }
 
@@ -20504,23 +20503,31 @@ footer .footer-navbar .nav-item:last-child a {
 /* Flag overlay */
 .flag-overlay {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
-  width: 24px;
-  height: 24px;
-  background: radial-gradient(circle, #ff0000 50%, #000000 50%);
+  bottom: 1rem; /* Align to bottom of profile image */
+  right: 1rem; /* Align to right of profile image */
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/flag.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
-  border: 2px solid #fff;
+  z-index: 2; /* Higher z-index to overlay on profile image */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for visibility */
 }
 
 /* Councillor card for information */
 .councillor-card {
   width: 100%;
   max-width: 300px;
-  background-color: #eee8e3;
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    rgba(212.95, 197.13, 184.1, 0.6) 100%
+  );
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   color: #333;
   margin-top: -40px; /* Position the card to start right below the profile image */
@@ -20543,13 +20550,15 @@ footer .footer-navbar .nav-item:last-child a {
   font-size: 16px;
   font-weight: bold;
   color: #333;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  margin-top: 2.5rem;
 }
 
 .councillor-info p {
   font-size: 14px;
   color: #333;
   margin: 2px 0;
+  font-weight: 500;
 }
 
 /* Responsive adjustments */
