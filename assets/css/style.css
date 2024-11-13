@@ -35,6 +35,8 @@ Table of contents
 /* ===================================
     01. Google font
 ====================================== */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
@@ -20455,14 +20457,14 @@ footer .footer-navbar .nav-item:last-child a {
 }
 
 .image-section-before-footer {
-  background-color: #f8f9fa; /* Adjust as needed */
+  background-color: #f8f9fa;
   text-align: center;
 }
 
 .image-section-before-footer .whp-image {
   width: auto;
   height: auto;
-  border-radius: 8px; /* Adds rounded corners if needed */
+  border-radius: 8px;
 }
 
 .councillor-section {
@@ -20503,8 +20505,8 @@ footer .footer-navbar .nav-item:last-child a {
 /* Flag overlay */
 .flag-overlay {
   position: absolute;
-  bottom: 1rem; /* Align to bottom of profile image */
-  right: 1rem; /* Align to right of profile image */
+  bottom: 1rem;
+  right: 1rem;
   width: 40px;
   height: 40px;
   background-image: url("../images/flag.png");
@@ -20512,8 +20514,8 @@ footer .footer-navbar .nav-item:last-child a {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
-  z-index: 2; /* Higher z-index to overlay on profile image */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow for visibility */
+  z-index: 2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Councillor card for information */
@@ -20530,7 +20532,7 @@ footer .footer-navbar .nav-item:last-child a {
   box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   color: #333;
-  margin-top: -40px; /* Position the card to start right below the profile image */
+  margin-top: -40px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -20565,13 +20567,13 @@ footer .footer-navbar .nav-item:last-child a {
 @media (max-width: 768px) {
   .councillor-card {
     max-width: 90%;
-    min-height: 180px; /* Adjust for smaller screens */
+    min-height: 180px;
   }
 
   .profile-image {
     width: 70px;
     height: 70px;
-    top: -35px; /* Adjust overlap for smaller screens */
+    top: -35px;
   }
 
   .councillor-info h3 {
@@ -20581,4 +20583,347 @@ footer .footer-navbar .nav-item:last-child a {
   .councillor-info p {
     font-size: 12px;
   }
+}
+.content-section {
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/* Benefits section styling */
+.benefits-section {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Column styling */
+.image-col {
+  position: relative;
+}
+
+.content-col {
+  background-color: #fef6ef;
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+  background-image: url("assets/images/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 150px;
+}
+
+/* Title styling in the content column */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Content styling */
+.section-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Adjust floral design size on smaller screens */
+@media (max-width: 768px) {
+  .content-col {
+    background-size: 100px;
+  }
+}
+
+/* Image overlay effect */
+.image-overlay {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Bottom overlay */
+.image-overlay::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(
+    0deg,
+    rgba(81, 21, 48, 0.9) 18.06%,
+    rgba(81, 21, 48, 0) 62.31%
+  );
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 1;
+}
+
+/* Title styling over the bottom overlay */
+.overlay-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 2;
+  margin: 0;
+}
+
+/* Content styling */
+.section-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.section-description p {
+  margin-bottom: 0.5rem;
+}
+
+/* Hover effect for image */
+.image-overlay:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .overlay-title {
+    font-size: 1.2rem;
+  }
+
+  .content-col {
+    padding: 1rem;
+  }
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+/* Left side text content */
+.about-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-images {
+  flex: 1;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for main image */
+.about-images .main-image {
+  width: 80%;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Styling for overlay image */
+.about-images .overlay-image {
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  width: 50%;
+  border-radius: 12px;
+  transform: translate(20px, -20px);
+  z-index: 3;
+}
+
+/* Background decorative image */
+.decorative-background {
+  position: absolute;
+  top: -40px;
+  right: -60px;
+  width: 300px;
+  height: auto;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.overlay-section {
+  position: relative;
+  background: url("../images/about/3.png") center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Semi-transparent overlay */
+.overlay-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(81, 21, 48, 0.9) 18.06%,
+    rgba(81, 21, 48, 0) 62.31%
+  );
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Text content styling */
+.overlay-content {
+  color: #fff;
+  font-size: 1rem;
+  max-width: 90%;
+  line-height: 1.6;
+  text-align: left;
+  padding: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  background-color: #fef3e9;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+/* Image styling */
+.contact-image {
+  width: 50%;
+  height: 100%;
+  border-radius: 12px 0 0 12px;
+  overflow: hidden;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Info section styling */
+.contact-info {
+  width: 50%;
+  padding: 20px;
+  position: relative;
+  background-color: #fef3e9;
+  border-radius: 0 12px 12px 0;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.contact-info p {
+  margin: 5px 0 15px;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+/* Icon and contact details styling */
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.contact-details div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-details div svg {
+  fill: #8b3a62;
+  width: 16px;
+  height: 16px;
+}
+
+/* Decorative background image */
+.decorative-bg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 500px;
+  height: auto;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.zone-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+/* Styling for each button */
+.zone-button {
+  padding: 10px 30px;
+  border: 1px solid #8b3a62;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #8b3a62;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Active button styling */
+.zone-button.active {
+  background-color: #8b3a62;
+  color: #fff;
+}
+
+/* Styling for data tables */
+.zone-data {
+  display: none; /* Hide all tables initially */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.zone-data.active {
+  display: block; /* Display only the active table */
 }

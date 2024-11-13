@@ -80,20 +80,20 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav alt-font">
-                        <li class="nav-item"><a href="#" class="nav-link"><i
+                        <li class="nav-item"><a href="welcome_message" class="nav-link"><i
                                     class="fa-solid fa-house"></i>&nbsp;Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="javascript:void(0);" class="nav-link">About us&nbsp;<i
                                     class="fa-solid fa-angle-down"></i></a></a>
                             <ul class="dropdown-menu border-radius-10px border border-color-transparent-base-color">
-                                <li><a href="#" class="text-black p-10px">E-Governance</a></li>
+                                <li><a href="e_governance" class="text-black p-10px">E-Governance</a></li>
                                 <li><a href="#" class="text-black p-10px">Officer Details</a></li>
-                                <li><a href="#" class="text-black p-10px">Contact us</a></li>
+                                <li><a href="contact" class="text-black p-10px">Contact us</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="javascript:void(0);" class="nav-link">About Tambaram&nbsp;<i
+                            <a href="about" class="nav-link">About Tambaram&nbsp;<i
                                     class="fa-solid fa-angle-down"></i></a></a>
                             <ul class="dropdown-menu border-radius-10px border border-color-transparent-base-color">
                                 <li><a href="#" class="text-black p-10px">How to reach</a></li>

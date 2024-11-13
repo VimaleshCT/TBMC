@@ -80,7 +80,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav alt-font">
-                        <li class="nav-item"><a href="index" class="nav-link"><i
+                        <li class="nav-item"><a href="welcome_message" class="nav-link"><i
                                     class="fa-solid fa-house"></i>&nbsp;Home</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -199,163 +199,96 @@
             <div class="row align-items-end h-100 md-mt-50px">
                 <div class="col-xl-6 col-lg-6 position-relative z-index-1"
                     data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h1 class="alt-font fs-70 text-white fw-500 ls-minus-2px">WHO's
-                        <br>
-                        WHO
+                    <h1 class="alt-font fs-70 text-white fw-500 ls-minus-2px">Contact
                         </span>
                     </h1>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section class="councillor-section pt-100px pb-100px">
-        <div class="container">
-            <div class="row text-center mb-5">
-            </div>
-            <div class="row">
-                <!-- Councillor Card -->
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
+
+    <div class="contact-section">
+        <!-- Left side image -->
+        <div class="contact-image">
+            <img src="assets/images/balachander.png" alt="Thiru S. Balachander">
+        </div>
+
+        <!-- Right side contact information -->
+        <div class="contact-info">
+            <h2>Thiru. S. Balachander, I.A.S</h2>
+            <p>Corporation Commissioner</p>
+            <p>28, Muthurenga Mudali Street,<br> West Tambaram, Chennai – 600 045</p>
+
+            <div class="contact-details">
+                <div>
+                    <!-- Phone Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M21 15.46l-5.27-1.32a2 2 0 0 0-2.13.56l-2.27 2.27a15.06 15.06 0 0 1-6.31-6.31l2.27-2.27a2 2 0 0 0 .56-2.13L8.54 3A2 2 0 0 0 6.41 2H3a2 2 0 0 0-2 2 19.91 19.91 0 0 0 5.81 14.19A19.91 19.91 0 0 0 21 22a2 2 0 0 0 2-2v-3.41a2 2 0 0 0-2-2.13z" />
+                    </svg>
+                    044-22261700
                 </div>
-
-
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
+                <div>
+                    <!-- Email Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-1.4 3l-6.6 4.22L5.4 7H18.6zM20 18H4V8.67l7.74 4.94a1 1 0 0 0 1.12 0L20 8.67V18z" />
+                    </svg>
+                    <a href="mailto:commr.tambaram@tn.gov.in">commr.tambaram@tn.gov.in</a>
                 </div>
             </div>
+
+            <!-- Decorative background image on the right -->
+            <img src="assets/images/decbg.png" alt="Decorative Bg" class="decorative-bg">
         </div>
-    </section>
+    </div>
 
 
+    <div class="zone-buttons">
+        <div class="zone-button active" onclick="showZoneData('zone1')">Zone 1</div>
+        <div class="zone-button" onclick="showZoneData('zone2')">Zone 2</div>
+        <div class="zone-button" onclick="showZoneData('zone3')">Zone 3</div>
+        <div class="zone-button" onclick="showZoneData('zone4')">Zone 4</div>
+        <div class="zone-button" onclick="showZoneData('zone5')">Zone 5</div>
+    </div>
 
-    <section class="image-section-before-footer" style="padding-bottom:0px;">
-        <div class="container" style="max-width:1300px;">
-            <img src="assets/images/group.png" alt="WHP Image" class="whp-image">
-        </div>
-    </section>
+    <div id="zone1" class="zone-data active">
+        <h2>Zone 1 Data Table</h2>
+        <!-- Your data table for Zone 1 -->
+    </div>
+    <div id="zone2" class="zone-data">
+        <h2>Zone 2 Data Table</h2>
+        <!-- Your data table for Zone 2 -->
+    </div>
+    <div id="zone3" class="zone-data">
+        <h2>Zone 3 Data Table</h2>
+        <!-- Your data table for Zone 3 -->
+    </div>
+    <div id="zone4" class="zone-data">
+        <h2>Zone 4 Data Table</h2>
+        <!-- Your data table for Zone 4 -->
+    </div>
+    <div id="zone5" class="zone-data">
+        <h2>Zone 5 Data Table</h2>
+        <!-- Your data table for Zone 5 -->
+    </div>
+
+    <script>
+        function showZoneData(zoneId) {
+            // Remove active class from all buttons and hide all data tables
+            const buttons = document.querySelectorAll('.zone-button');
+            const tables = document.querySelectorAll('.zone-data');
+
+            buttons.forEach(button => button.classList.remove('active'));
+            tables.forEach(table => table.classList.remove('active'));
+
+            // Add active class to the clicked button and corresponding table
+            document.querySelector(`[onclick="showZoneData('${zoneId}')"]`).classList.add('active');
+            document.getElementById(zoneId).classList.add('active');
+        }
+    </script>
+
 
 
 

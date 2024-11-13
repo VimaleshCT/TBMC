@@ -80,7 +80,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav alt-font">
-                        <li class="nav-item"><a href="index" class="nav-link"><i
+                        <li class="nav-item"><a href="welcome_message" class="nav-link"><i
                                     class="fa-solid fa-house"></i>&nbsp;Home</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -199,163 +199,207 @@
             <div class="row align-items-end h-100 md-mt-50px">
                 <div class="col-xl-6 col-lg-6 position-relative z-index-1"
                     data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h1 class="alt-font fs-70 text-white fw-500 ls-minus-2px">WHO's
-                        <br>
-                        WHO
+                    <h1 class="alt-font fs-70 text-white fw-500 ls-minus-2px">E-Governance
                         </span>
                     </h1>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section class="councillor-section pt-100px pb-100px">
-        <div class="container">
-            <div class="row text-center mb-5">
+
+    <div class="content-section">
+        <!-- Vision Section -->
+        <div class="benefits-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b1.png" alt="Vision Image" class="img-fluid rounded">
+                        <h2 class="overlay-title">Vision</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 content-col">
+
+                    <p class="section-description">
+                        To Make All Urban Local Body Services Accessible To The Common Man From Anywhere, Anytime
+                        Through
+                        Various Service Delivery Outlets And Ensure Efficiency, Accuracy, Transparency, Speedy &
+                        Reliability
+                        Of Such Services, At Affordable Costs To The Basic Needs Of The Common Man In The State Of
+                        Tamilnadu.
+                    </p>
+                </div>
             </div>
-            <div class="row">
-                <!-- Councillor Card -->
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
+        </div>
+
+        <!-- Urban Tree Section -->
+        <div class="urban-tree-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b2.png" alt="Urban Tree Image" class="img-fluid rounded">
+                        <h4 class="overlay-title">Urban Tree <br>An Integrated E-Solution For ULB’s</h4><br>
+
                     </div>
                 </div>
+                <div class="col-md-6" style="background-color:#FEF6EF">
 
-
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4 col-lg-3 mb-4">
-                    <div class="profile-image">
-                        <img src="assets/images/mayor.jpg" alt="Councillor Image">
-                        <div class="flag-overlay"></div>
-                    </div>
-                    <div class="councillor-card">
-                        <div class="councillor-info">
-                            <h3>Thiru. Jeganathan V</h3>
-                            <p>Plot No.A, Door No.1, Gandhi Main Road, Sankar Nagar, Pammal.</p>
-                            <p>9841275549</p>
-                            <p>A.I.A.D.M.K</p>
-                            <p>Ward 5</p>
+                    <div class="phases">
+                        <ul class="nav nav-tabs" id="phaseTabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="phase1-tab" data-toggle="tab" href="#phase1" role="tab"
+                                    aria-controls="phase1" aria-selected="true">Phase I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="phase2-tab" data-toggle="tab" href="#phase2" role="tab"
+                                    aria-controls="phase2" aria-selected="false">Phase II</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="phaseTabsContent">
+                            <div class="tab-pane fade show active" id="phase1" role="tabpanel"
+                                aria-labelledby="phase1-tab">
+                                <ul class="section-list">
+                                    <li>Agenda</li>
+                                    <li>Assembly Questions And Answers</li>
+                                    <li>Integrated Personnel Management System</li>
+                                    <li>Legal</li>
+                                    <li>Asset Booking Asset Management</li>
+                                    <li>Audit</li>
+                                    <li>Building Plan</li>
+                                    <li>Employee Self Service</li>
+                                    <li>E-Office</li>
+                                    <li>Hospital Management</li>
+                                    <li>Procurement</li>
+                                    <li>School Management</li>
+                                    <li>Solid Waste Management</li>
+                                    <li>Vehicle Management</li>
+                                    <li>Ward Works</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="phase2" role="tabpanel" aria-labelledby="phase2-tab">
+                                <ul class="section-list">
+                                    <!-- Add items for Phase II if available -->
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-
-
-    <section class="image-section-before-footer" style="padding-bottom:0px;">
-        <div class="container" style="max-width:1300px;">
-            <img src="assets/images/group.png" alt="WHP Image" class="whp-image">
+        <!-- Benefits to Citizen Section -->
+        <div class="benefits-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b3.png" alt="Benefits to Citizen Image" class="img-fluid rounded">
+                        <h4 class="overlay-title">Benefits to Citizen</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 content-col">
+                    <p class="section-description">
+                        A Transparent System With Visible Accountability From The Department. Convenience In Interaction
+                        With The Department.<br>
+                        Minimum Turnaround Time In Receiving A Service.<br>
+                        Availability Of A Virtual Interface For Enhanced Convenience.<br>
+                        Efficient Mechanism For Grievances Redressal And Filing Appeals.<br>
+                        Speedy Disposal Of Appeals.<br>
+                        Elimination Of Discretionary Human Interface In Decision-Making.
+                    </p>
+                </div>
+            </div>
         </div>
-    </section>
+
+        <!-- Benefits to Employees - G2G Section -->
+        <div class="benefits-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b4.png" alt="Benefits to Employees Image"
+                            class="img-fluid rounded">
+                        <h4 class="overlay-title">Benefits to Employees - G2G</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 content-col">
+                    <p class="section-description">
+                        Greater Transparency And Accountability In The System To Bring Credibility To Intra-Departmental
+                        Processes.<br>
+                        Simplification Of Administration Of The Department.<br>
+                        Capacity Building Through Extensive Training On Technical Lines.<br>
+                        Performance Incentives For Motivation Of Project Teams.<br>
+                        In-House Training Facility.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits to Business Groups / Private Partners - G2B Section -->
+        <div class="benefits-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b5.png" alt="Benefits to Business Groups Image"
+                            class="img-fluid rounded">
+                        <h4 class="overlay-title">Benefits to Business Groups / Private Partners - G2B</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 content-col">
+                    <p class="section-description">
+                        Minimum Physical Interface With The Department For Convenience.<br>
+                        Provision Of Correct, Updated Reliable Information On Performance.<br>
+                        Simplified And Convenient Procedures For Quality Service Delivery.<br>
+                        Speedy Adjudication Of Disputes And Disposal Of Cases.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits to Elected Representatives - G2E Section -->
+        <div class="benefits-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b6.png" alt="Benefits to Elected Representatives Image"
+                            class="img-fluid rounded">
+                        <h4 class="overlay-title">Benefits to The Elected Representatives - G2E</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 content-col">
+                    <p class="section-description">
+                        Access To Accurate Information On Local Body Activities For Better Participation.<br>
+                        Management Information System For Informed Decision-Making.<br>
+                        Enhanced Transparency In Administration.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Benefits to Government - G2G Section -->
+        <div class="benefits-section">
+            <div class="row my-4">
+                <div class="col-md-6 image-col">
+                    <div class="image-overlay">
+                        <img src="assets/images/egov/b7.png" alt="Benefits to Government Image"
+                            class="img-fluid rounded">
+                        <h4 class="overlay-title">Benefits to Government - G2G</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 content-col">
+                    <p class="section-description">
+                        Efficient Administration Of Internal Office Procedures.<br>
+                        Delivery Of Services To Citizens Anytime, Anywhere.<br>
+                        System-Assisted Decision-Making Through MIS.<br>
+                        Simplified Processes For Administrative Convenience.<br>
+                        Enhanced Revenue Collection Through Better Monitoring.<br>
+                        Comprehensive Dashboard For Real-Time Insights.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 

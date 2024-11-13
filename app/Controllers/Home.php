@@ -13,4 +13,20 @@ class Home extends BaseController
     {
         return view('whos_who');
     }
+
+    public function egov(): string
+    {
+
+        return view('e_governance');
+    }
+    public function about(): string
+    {
+
+        return view('about');
+    }
+    public function cont(): string
+    {
+
+        return view('contact');
+    }
 }
